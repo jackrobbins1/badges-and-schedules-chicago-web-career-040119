@@ -23,5 +23,7 @@ def printer(arr)
     puts el
   end
 
-  puts assign_rooms(arr)
+  puts assign_rooms(arr).each do |el|
+    puts el
+  end
 end
